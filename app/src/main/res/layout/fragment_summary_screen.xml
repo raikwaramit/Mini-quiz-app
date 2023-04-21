@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragmentscreen_background"
+    tools:context=".ui.FragmentSummaryScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/logolayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/pen"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/penlogo"
+                    app:layout_constraintBottom_toBottomOf="@+id/app_name"
+                    app:layout_constraintEnd_toStartOf="@+id/app_name"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/app_name" />
+
+                <TextView
+                    android:id="@+id/app_name"
+                    style="@style/Textstyle1"
+                    android:text="@string/quizzy"
+                    android:textColor="@color/textcolor2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/pen"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/Textstyle1"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/logolayout"
+                android:gravity="center"
+                android:text="@string/score_board"
+                android:textSize="40sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/timerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/timer_background"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/rem_time_head"
+                    style="@style/Textstyle2"
+                    android:focusable="false"
+                    android:text="@string/time_taken"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/rem_time"
+                    app:layout_constraintEnd_toEndOf="@+id/rem_time"
+                    app:layout_constraintStart_toStartOf="@+id/rem_time"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/rem_time"
+                    style="@style/Textstyle1"
+                    android:layout_width="200sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/layoutshapes"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/demo_name"
+                    app:layout_constraintBottom_toTopOf="@+id/score"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/score"
+                    style="@style/Textstyle2"
+                    android:focusable="false"
+                    android:text="@string/score"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/scorevalue"
+                    app:layout_constraintEnd_toEndOf="@+id/scorevalue"
+                    app:layout_constraintStart_toStartOf="@+id/scorevalue"
+                    app:layout_constraintTop_toBottomOf="@+id/rem_time" />
+
+                <TextView
+                    android:id="@+id/scorevalue"
+                    style="@style/Textstyle1"
+                    android:layout_width="200sp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/layoutshapes"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/demo_name"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/score" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timerLayout"
+                android:layout_marginTop="20dp"
+                android:focusable="false"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/restart_btn"
+                    style="@style/Button_style"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/restart"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/exit_btn"
+                    style="@style/Button_style"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/exit"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

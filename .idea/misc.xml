@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/backgroundshape.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/bookmark_off.xml" value="0.27734375" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/button_background.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/button_background_click.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/button_state.xml" value="0.176" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/fragmentscreen_background.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/item_background.xml" value="0.27734375" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/layoutshapesfill.xml" value="0.27734375" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/shapes.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/textview_background.xml" value="0.3697916666666667" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/drawable/timer_background.xml" value="0.27734375" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout-land/fragment_question_details_screen_land.xml" value="0.264" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout-land/fragment_questions_list_screen_land.xml" value="0.176" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout-land/fragment_setup_screen_land.xml" value="0.264" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout-land/fragment_splash_screen_land.xml" value="0.176" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout-land/fragment_summary_screen_land.xml" value="0.176" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/activity_main.xml" value="0.240625" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_question_details_screen.xml" value="0.265234375" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_question_details_screen_land.xml" value="0.176" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_questions_list_screen.xml" value="0.152" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_questions_list_screen_land.xml" value="0.2546875" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_setup_screen.xml" value="0.152" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_setup_screen_land.xml" value="0.176" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_splash_screen_land.xml" value="0.2" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_summary_screen.xml" value="0.176" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/fragment_summary_screen_land.xml" value="0.2546875" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/layout.xml" value="0.265234375" />
+        <entry key="..\:/Users/Amit_RSL/AndroidStudioProjects/MCQQuizApp/app/src/main/res/layout/listitem_layout.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

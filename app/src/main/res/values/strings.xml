@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MCQ Quiz App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mcq_quiz_app">MCQ quiz app</string>
+    <string name="quizzy">QUIZZY</string>
+    <string name="time_remaining">Time Remaining</string>
+    <string name="bookmark_button">Bookmark button</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
+    <string name="demo_name">DEMO</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="welcome_nto">Welcome\nto</string>
+    <string name="rules_for_the_quiz">Rules for the Quiz</string>
+    <string name="rules">Rules</string>
+    <string name="rule_1">1. Number of questions are 10.</string>
+    <string name="rule_2">2. Time limit is 3 minutes.</string>
+    <string name="rule_3">3. For each question 4 options are present.</string>
+    <string name="rule_4">4. Choosing the correct answer will add 1 score</string>
+    <string name="rule_5">5. Choosing the Wrong Answer will cut -1/2 score</string>
+    <string name="start">Start</string>
+    <string name="quiz_app_logo">Quiz app logo</string>
+    <string name="splash_text">The ultimate MCQ quiz app</string>
+    <string name="score_board">SCORE BOARD</string>
+    <string name="time_taken">Time Taken</string>
+    <string name="score">Score</string>
+    <string name="exit">Exit</string>
+    <string name="restart">Restart</string>
+    <string name="answer_status">Answer Status</string>
+</resources>
